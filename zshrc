@@ -85,6 +85,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # lazygit from https://stackoverflow.com/a/23328996
+# usage: lazygit "commit message"
+# without -m 
 
 function lazygit() {
     git add .
