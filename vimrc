@@ -36,3 +36,7 @@ noremap   <Up>     <NOP>
 noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
+
+" add spell check to markdown files
+autocmd BufRead,BufNewFile *.md setlocal spell spelllang=en_gb
+
