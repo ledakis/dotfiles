@@ -23,7 +23,8 @@ set incsearch     " show search matches as you type
 
 
 if &t_Co >= 256 || has("gui_running")
-	    colorscheme molokai 
+	    "colorscheme molokai 
+	    colorscheme mopkai
     endif
 
 if &t_Co > 2 || has("gui_running")
